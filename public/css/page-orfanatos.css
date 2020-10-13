@@ -26,13 +26,15 @@ aside footer{
 }
 #mapid{
     width:100%;
-    height: 100%;
+    height: 100%;    
+    animation-delay: 300ms;
 }
 /*button*/
 a.create-orfanato{
     position: absolute;
     right: 4rem;
     bottom: 4rem;
+    z-index: 10;
     width: 6.4rem;
     height: 6.4rem;
     background: #15C3D6;
@@ -53,6 +55,7 @@ a.create-orfanato:hover{
 }
 .leaflet-popup-content {
     color: #0089A5;
+    
     font-size: 2rem;
     font-weight: 600;
     margin: .8rem 1.2rem;
@@ -73,4 +76,11 @@ a.create-orfanato:hover{
 }
 .leaflet-popup-content a:hover{
     background: #17d6eb;
+}
+.leaflet-popup-tip{
+    display: none;
+}
+.leaflet-container{
+    font:700 2rem/1 "Nunito",sans-serif ;
+    z-index: 5;
 }
