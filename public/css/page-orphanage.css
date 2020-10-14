@@ -53,6 +53,10 @@ aside.sidebar footer button:hover{
 .images button {
     border: 0;
     background: none;
+    height: 8.8rem;
+    cursor:pointer;
+    border-radius: 2rem;
+    overflow: hidden;
 }
 .images button img {
     width: 100%;
