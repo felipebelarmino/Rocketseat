@@ -57,6 +57,11 @@ aside.sidebar footer button:hover{
     cursor:pointer;
     border-radius: 2rem;
     overflow: hidden;
+    opacity: 0.6;
+    transition: opacity 0.3s;
+}
+.images button:hover, .images button.active{
+    opacity: 1;
 }
 .images button img {
     width: 100%;
