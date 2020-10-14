@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./public/css/main.css">
     <link rel="stylesheet" href="./public/css/page-orfanatos.css">
     <link rel="stylesheet" href="./public/css/animations.css">
+    
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
      <!-- Make sure you put this AFTER Leaflet's CSS -->
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
@@ -19,6 +20,7 @@
   </head>
 <body>
   <div id="page-orfanatos">
+
     <aside class="animate-right">
       <header>
         <img src="./public/images/map-marker.svg" alt="happy">
@@ -28,6 +30,15 @@
       <footer>
         <strong>Suzano</strong>
         <p>São Paulo</p>
+        <!-- botão voltar -->
+        <div class="back-button">          
+          <footer>
+              <button onclick="history.back()">
+                  <img src="./public/images/arrow-back.svg" alt="voltar">
+              </button>
+          </footer>
+        </div>
+        <!-- botao voltar -->
       </footer>
     </aside>
 

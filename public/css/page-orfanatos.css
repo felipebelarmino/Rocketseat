@@ -84,3 +84,19 @@ a.create-orfanato:hover{
     font:700 2rem/1 "Nunito",sans-serif ;
     z-index: 5;
 }
+.back-button button{  
+    margin-top: 5rem;  
+    width:5.8rem;
+    height:5.8rem;
+    border: none;
+    background: #12afcb;
+    border-radius: 1.6rem;
+    cursor: pointer;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    transition:background-color 300ms;
+}
+.back-button button:hover{
+    background: #17d6eb;
+}
