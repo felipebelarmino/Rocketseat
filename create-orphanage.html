@@ -72,19 +72,44 @@
 
             <div class="input-block images">
               <label for="images">Foto</label>
+
               <div class="images-upload" id="images">
-                <input name="images">
+                <input name="images" placeholder="Cole o link da foto aqui">
               </div>
-              <button>
+              <button type="button">
                 <img src="./public/images/plus.svg" alt="nova imagem">
               </button>
             </div>
+
+            
 
 
           </fieldset>
 
           <fieldset>
             <legend>Visitação</legend>
+
+            <div class="input-block">
+              <label for="instructions">Sobre<span>Instruções</span></label>
+              <textarea id="instructions" name="instructions"></textarea>
+            </div>
+
+            <div class="input-block">
+              <label for="opening_hours">Horários de visitas</label>
+              <input id="opening_hours" name="opening_hours" />
+            </div>
+
+            <div class="input-block"></div>
+            <label for="open_on_weekends">Atende fim de semana?</label>
+            <input 
+              type="hidden" 
+              id="open_on_weekends" 
+              name="open_on_week" 
+              value="1"/>
+
+              <div class="button-select">
+                <button>Sim</button><button>Não</button>
+              </div>
           </fieldset>
         </form>
       </main>

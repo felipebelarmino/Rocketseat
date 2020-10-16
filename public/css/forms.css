@@ -49,7 +49,7 @@ fieldset legend {
 .input-block input:focus,
 .input-block textarea:focus{
     box-shadow: 0px 5px 5px 0px #e9ecef;
-    border: 1px solid #8fa7b3;
+    border: 2px dashed #8fa7b3;
     background:white;
 }
 .input-block input{
@@ -64,7 +64,7 @@ fieldset legend {
 
 }
 .input-block.images button{
-    border:1px dashed rgb(255, 255, 255);
+    border:2px solid #15c3d6e7;
     width:100%;
     background: #15c3d6;
     height: 6.4rem;
@@ -73,6 +73,7 @@ fieldset legend {
     border-radius:2rem;
     outline:none;
     transition:background-color 300ms;
+    cursor: pointer;
 }
 .input-block.images button:hover{
     background: #17dff5;
