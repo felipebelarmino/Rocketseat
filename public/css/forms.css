@@ -26,3 +26,14 @@ fieldset legend {
 .input-block + .input-block {
     margin-top:2.4rem;
 }
+.input-block label{
+    color: #8fa7b3;
+    margin-bottom: .8rem;
+    line-height: 1.5rem;
+}
+.input-block label span{
+    font-size: 1.4rem;
+    color: #8fa7b3;
+    margin-left: 2.4rem;
+    line-height: 1.5;
+}
